@@ -1,0 +1,151 @@
+<html>
+<head>
+
+
+
+</head>
+
+<body>
+<div id="meni">
+<ul>
+<li><a href=#task_1>CV</a></li>
+<li><a href=#task_2>Omiljeni filmovi</a></li>
+<li><a href=#task_3>Prijava za posao</a></li>
+</ul>
+</div>
+
+<div id="task_1">
+<h1>Curriculum Vitae</h1>
+<img src="milosdomaci.jpg" alt="Profilna fotografija" width="150" height="220">
+<h2>Osnovni podaci</h2>
+<p>Ime: Miloš Božović</p>
+<br/>
+<p>Godina rođenja: 21.4.1998</p>
+<br/>
+<p>Interesovanja: programiranje, grafički dizajn, automatika</p>
+<br/>
+<h2>Vještine:</h2>
+<ol type="a">
+<li>C</li>
+<li>C++</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>MATLAB</li>
+<li>Java</li>
+<li>Photoshop</li>
+</ol>
+<h2>Kontakt</h2>
+<p>Broj telefona: 06********</p>
+<br/>
+<a href="https://www.fiverr.com/milosbetf">Fiverr nalog za grafički dizajn</a>
+<h3>Prednosti poslovanja sa mnom</h3>
+<ul>
+<li><strong>Odgovornost(radi domaći na dan kad treba da se preda)</strong></li>
+<li>Profesionalnost</li>
+<li>Student ETF-a</li></ul>
+</div>
+<br/>
+<div id="task_2">
+
+    
+        <table >
+                <caption><strong>Omiljeni filmovi</strong></caption>
+                <tr>
+                  <th>Ime Filma</th>
+                  <th>Kratak opis</th>
+                  <th>Žanr</th>
+                  <th>Datum premijere</th>
+                  <th>Cover slika</th>
+                  <th>Link</th>
+                </tr>
+                <tr>
+                        <th>Avengers: Infinity War</th>
+                        <th>Thanos pucketa prstima</th>
+                        <th>Akcija</th>
+                        <th> 27. aprila 2018. godine</th>
+                        <th><img src="Avengers_Infinity_War.jpg" width="100" height="120"></th>
+                        <th><a href="https://www.imdb.com/title/tt4154756/">Saznaj vise</a></th>
+                      </tr>
+                      <tr>
+                            <th>Guardians Of Galaxy</th>
+                            <th>Thanos želi jedan infinity stone</th>
+                            <th>Akcija</th>
+                            <th>24. jula 2014. godine</th>
+                            <th><img src="guardians1.jpg" width="100" height="120"></th>
+                            <th><a href="https://www.imdb.com/title/tt2015381/">Saznaj vise</a></th>
+                          </tr>    
+                          <tr>
+                                <th>Guardians Of Galaxy 2</th>
+                                <th> Čuvari razotkrivaju misteriju 
+                                    <br/>pravog porekla Pitera Kvila </th>
+                                <th>Akcija</th>
+                                <th>10. aprila 2017. godine</th>
+                                <th><img src="Guardians_of_the_Galaxy_Vol_2_poster.jpg" width="100" height="120"></th>
+                                <th><a href="https://www.imdb.com/title/tt3896198/?ref_=tt_rec_tti">Saznaj vise</a></th>
+                              </tr> 
+                              <tr>
+                                    <th>Thor: Ragnarok</th>
+                                    <th> Thor se bori protiv svoje<br/> sestre da bi spasio svijet </th>
+                                    <th>Akcija</th>
+                                    <th>10. aprila 2017. godine</th>
+                                    <th><img src="thhor.jpg" width="100" height="120"></th>
+                                    <th><a href="https://www.imdb.com/title/tt3501632/">Saznaj vise</a></th>
+                                  </tr>            
+               
+              </table>
+              
+</div>
+<div id="task_3">
+<h1>Popunite prijavu za posao</h1>
+<form action="/action_page.php" method="get">
+<label for="Ime"><b>Ime i prezime</b></label>
+    <input type="text" placeholder="Unesite Vaše ime" name="Ime" required>
+    <br/>
+<label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Unesite Email" name="email" required>
+    <br/>
+<label for="tel"><b>Telefon</b></label>
+    <input type="text" placeholder="Unesite broj telefona" name="tel" required>
+    <br/>
+<label for="pozicija"><b>Pozicija</b></label>
+<select required>
+        <option value="fang">Frontend Angular</option>
+        <option value="frea">Frontend React</option>
+        <option value="bnJS">Backend NodeJS</option>
+        <option selected value="bPy">Backend Python</option>
+        
+       
+      </select>
+    <br/>
+    <label for="CV"><b>CV</b></label>
+    <input type="file">
+    <br/>
+    <label for="portfolio"><b>Portfolio vebsajt</b></label>
+    <input type="text" placeholder="Unesite vebsajt" name="portfolio">
+    <br/>
+    <label for="plata"><b>Očekivanja za platu</b></label>
+    <input type="text" placeholder="Unesite ocekivanu platu" name="plata">
+    <br/>
+    <label for="pocetak"><b>Kada možete početi?</b></label>
+    <input type="text" placeholder="Unesite datum" name="pocetak">
+    <br/>
+    <p><strong>Da li bi se preselili?</strong></p><br/>
+    <form action="">
+            <input type="radio" name="izbor" value="Da"> Da<br>
+            <input type="radio" name="izbor" value="Ne"> Ne<br>
+            <input type="radio" name="izbor" value="Ne"> Ne
+          </form>
+</div>
+<label for="Komp"><b>Posljednja kompanija za koju ste radili</b></label>
+    <input type="text" placeholder="Ime kompanije" name="Komp">
+    <br/>
+    <label for="Komentari"><b>Ostavite komentar</b></label>
+    <textarea rows="5" cols="100">
+            </textarea>
+            <input type="submit" value="Pošalji">
+
+</form>
+</body>
+
+
+</html>
